@@ -4,7 +4,6 @@ import { cwd } from 'process';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import { VueLoaderPlugin } from 'vue-loader';
 import getWebpackLogger from 'webpack-log'; 
-import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import ESlintWebpackPlugin from 'eslint-webpack-plugin';
 import MiniCSSExtractPlugin from 'mini-css-extract-plugin';
 
